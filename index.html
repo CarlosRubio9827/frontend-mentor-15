@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip calculator app</title>
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <div class="bg">
+        <div class="title">
+            <div class="title-img"></div>
+        </div>
+        <div class="container">
+            <div class="container-bill">
+                <div class="container-bill-title">
+                    <p>Bill</p>
+                </div>
+                <div class="container-bill-input">
+                    <div></div>
+                    <input id="billInput" type="number" placeholder="Write the bill">
+                </div>
+            </div>
+            <div class="container-tip">
+                <div class="container-tip-title">
+                    <p>Select Tip %</p>
+                </div>
+                <div class="container-tip-percentage">
+                    <input class="inputTip" type="button" value="5%">
+                    <input class="inputTip" type="button" value="10%">
+                    <input class="inputTip" type="button" value="15%">
+                    <input class="inputTip" type="button" value="25%">
+                    <input class="inputTip" type="button" value="50%">
+                    <input class="inputTip" id="customInput" type="number" placeholder="Custom">
+                </div>
+            </div>
+            <div class="container-people">
+                <div class="container-people-title">
+                    <p>Number of People</p>
+                </div>
+                <div class="container-people-input">
+                    <div></div>
+                    <input id="peopleInput" type="number" placeholder="Type the numbers of people">
+                </div>
+            </div>
+            <div class="container-result">
+                <div class="container-result-tip">
+                    <div class="container-result-tip-info">
+                        <p>Tip Amount</p>
+                        <span>/ person</span>
+                    </div>
+                    <div class="container-result-tip-value">
+                        <p>$0</p>
+                    </div>
+                </div>
+                <div class="container-result-total">
+                    <div class="container-result-total-info">
+                        <p>Total</p>
+                        <span>/ person</span>
+                    </div>
+                    <div class="container-result-total-value">
+                        <p>$0</p>
+                    </div>
+                </div>
+                <div class="container-result-reset">
+                    <button id="buttonReset">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="./Js/main.js"></script>
+</body>
+</html>
